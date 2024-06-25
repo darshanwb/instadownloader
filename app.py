@@ -49,7 +49,7 @@ def download_instagram_post():
             result = {
                 'url': post_url,
                 'status': 'failed',
-                'error': str(e)
+                'error': 'Nathi chaltu'
             }
     else:
         result = {
